@@ -6,7 +6,7 @@ function Navbar() {
     <nav>
       <div>
         <img src="/images/logo.svg" alt="Logo" />
-        <p className="font-bold"> Roshan's Portfolio"</p>
+        <p className="font-bold"> Roshan's Portfolio</p>
         <ul>
             {navLinks.map((link) => (
                 <li key={link.id}>
